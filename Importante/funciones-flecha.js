@@ -17,7 +17,7 @@ let suma = (a,b) => {
     return respuesta = `El resultado de la Suma de ${a} y ${b} es: ${a + b}`
 };
 
-console.log(suma(2,3));
+console.log(suma(2,3)); 
 
 //obj siempre embuelto en parentesis 
 let obj = () => ({nombre: 'Christian', edad: 23});
