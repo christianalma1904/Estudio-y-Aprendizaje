@@ -27,3 +27,12 @@ const productosDescuento = productos.map(function(producto){
 
 console.log(productos);
 console.log(productosDescuento);
+
+//3. Extraer Datos de un Objeto
+const productos1 = [
+    {id: '1', producto: 'camiseta', precio: 5},
+    {id: '2', producto: 'zapatillas', precio: 40},
+    {id: '3', producto: 'pantalon', precio: 25}];
+
+const idProductos = productos1.map(({id}) => id);
+console.log(idProductos);
